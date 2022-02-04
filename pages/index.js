@@ -44,7 +44,12 @@ export default function Home() {
           >
             <Image src="/swirl.png" width={576 / 3} height={597 / 3} alt="" />
           </div>
-          <Image src="/cuteOne.jpg" width={500} height={562} alt="" />
+          <Image
+            src="/static/images/cuteOne.jpg"
+            width={500}
+            height={562}
+            alt=""
+          />
         </div>
         <h2>Please join us for the wedding of </h2>
         <h1>Kylee Anderson & Wilson Stewart</h1>
