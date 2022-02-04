@@ -32,7 +32,7 @@ export default function Home() {
             }}
           >
             <Image
-              src="/../public/swirl.png"
+              src={require("../public/swirl.png")}
               width={576 / 3}
               height={597 / 3}
               alt=""
@@ -49,13 +49,18 @@ export default function Home() {
             }}
           >
             <Image
-              src="/../public/swirl.png"
+              src={require("../public/swirl.png")}
               width={576 / 3}
               height={597 / 3}
               alt=""
             />
           </div>
-          <Image src="/../public/cuteOne.jpg" width={500} height={562} alt="" />
+          <Image
+            src={require("../public/cuteOne.jpg")}
+            width={500}
+            height={562}
+            alt=""
+          />
         </div>
         <h2>Please join us for the wedding of </h2>
         <h1>Kylee Anderson & Wilson Stewart</h1>
