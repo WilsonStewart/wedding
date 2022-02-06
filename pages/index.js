@@ -8,8 +8,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <meta name="description" content="2deers" />
+        <title>Kylee Anderson & Wilson Stewart's Wedding - 2deers.com</title>
       </Head>
 
       <main className={styles.main}>
@@ -44,12 +43,7 @@ export default function Home() {
           >
             <Image src="/swirl.png" width={576 / 3} height={597 / 3} alt="" />
           </div>
-          <Image
-            src="/static/images/cuteOne.jpg"
-            width={500}
-            height={562}
-            alt=""
-          />
+          <Image src="/cuteOne.jpg" width={500} height={562} alt="" />
         </div>
         <h2>Please join us for the wedding of </h2>
         <h1>Kylee Anderson & Wilson Stewart</h1>

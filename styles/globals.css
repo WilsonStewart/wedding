@@ -25,6 +25,12 @@ h2 {
   margin: 0;
   color: #d9b760;
   font-size: 20pt;
+  margin: 1rem;
+}
+
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
 }
 
 * {
@@ -34,8 +40,27 @@ h2 {
 .navbar a {
   padding: 0.5rem;
   color: white;
+  width: 100%;
 }
 
 .navbar a:hover {
   text-decoration: underline;
+}
+
+.card-normal-label {
+  margin-bottom: 0.5rem;
+}
+
+.card-normal-input {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.greencheck {
+  font-size: 2rem;
+}
+
+.venue-card {
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

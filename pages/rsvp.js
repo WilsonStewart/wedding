@@ -9,33 +9,41 @@ export default function RSVP() {
       <main>
         <Navbar />
         <h1>RSVP</h1>
-        <Card>
+        <Card className="card">
           <form
             style={{
               display: "flex",
               flexDirection: "column",
+              fontFamily: "Segoe UI, sans-serif",
+              alignItems: "start",
             }}
-            action="/api/"
+            action="https://weddingrsvp-2deers.azurewebsites.net/"
           >
-            <label>Name</label>
-            <input name="name" />
+            <label className="card-normal-label">Name</label>
+            <input className="card-normal-input" name="name" />
 
-            <label>Email</label>
-            <input name="email" />
+            <label className="card-normal-label">Email</label>
+            <input className="card-normal-input" name="email" />
 
-            <label>Mailing Address</label>
-            <input name="mailing" />
+            <label className="card-normal-label">Mailing Address</label>
+            <input className="card-normal-input" name="mailing" />
 
-            <label># Attending</label>
-            <input name="attending" />
+            <label className="card-normal-label"># Attending</label>
+            <input className="card-normal-input" name="attending" />
 
-            <label>Send a digital invite?</label>
-            <input type="checkbox" name="digital_invite" />
+            <span className="card-normal-input">
+              <label>Send a digital invite?</label>
+              <input type="checkbox" name="digital_invite" />
+            </span>
 
-            <label>Send a physical invite?</label>
-            <input type="checkbox" name="physical_invite" />
+            <span className="card-normal-input">
+              <label>Send a physical invite?</label>
+              <input type="checkbox" name="physical_invite" />
+            </span>
 
-            <button type="submit">RSVP now</button>
+            <button className="card-normal-input" type="submit">
+              Go!
+            </button>
           </form>
         </Card>
       </main>
