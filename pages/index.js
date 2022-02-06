@@ -8,7 +8,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Kylee Anderson & Wilson Stewart's Wedding - 2deers.com</title>
+        <title>
+          Kylee Anderson & Wilson Stewart&apos;s Wedding - 2deers.com
+        </title>
       </Head>
 
       <main className={styles.main}>
