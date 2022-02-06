@@ -21,7 +21,7 @@ export default function RSVPSuccess() {
             <div className="greencheck">✅</div>
             <div>
               <p>Thank you for RSVP-ing for our wedding, firstname!</p>
-              <p>Can't wait to see y'all there! 🙂</p>
+              <p>Can&apos;t wait to see y&apos;all there! 🙂</p>
               <hr />
             </div>
           </div>
